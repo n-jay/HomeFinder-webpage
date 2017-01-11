@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HomeFinder</title>
+
+        <!--links the jquery dependancy files-->
+        <script src="jquery-3.1.1.min.js"></script>
+        <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+
+        <!--links required custom scripts-->
+        <script src="scripts.js"></script>
+       
+        <!--CSS styling for the page arrangment, appearance and fonts-->
+        <link rel = "stylesheet" type="text/css" href = "mystyle.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Hind:400,700|Montserrat:400,700" rel="stylesheet">
+        
+        
+    </head>
+
+    <body>
+        <header>
+            HomeFinder
+        </header>
+
+        <!--search area includes all text fields and buttons-->
+        <section id = "searchArea">
+                <div class="ui-widget">
+                    <label for = "search" id = "searchLabel">Search houses:</label> <br>
+                    <p>Enter House type, price, no. of bedrooms or date added to search</p>
+                    <input type = "text" id = "search" placeholder="type,price,bedrooms,date"><br><br> 
+                </div>
+
+                <!--suggestions area gets autocomplete suggestions and displays them-->
+                <div id = "suggestions" style = "text-align: left; font-size: 80%;">
+                </div>
+
+                <div class = "widget">
+                    <button id = "btnSearchType">By Type</button>
+                    <button id = "btnSearchPrice">By Price</button>
+                    <button id = "btnSearchRooms">By Bedrooms</button>
+                    <button id = "btnSearchDate">By Date</button>
+                
+                    <button id = "reset">Clear</button>
+                </div>
+        </section>
+
+        <!--the update section is where the results are displayed. Each result is in its own wrapper-->
+        <section id = "update">
+            <p style = "color: white;">Your results will appear here...</p>
+        </section>
+    </body>
+</html>

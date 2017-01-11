@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Property 1</title>
+
+        <script src="jquery-3.1.1.min.js"></script>
+        <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+        
+        <link rel = "stylesheet" href = "jquery-ui-1.10.0.custom.css">
+        <link rel = "stylesheet" href = "propPageStyles.css">
+        <link href="https://fonts.googleapis.com/css?family=Hind:400,700|Montserrat:400,700" rel="stylesheet">
+
+        <script src="propPageScripts.js"></script>
+    </head>
+
+    <body>
+        <header id = "propHeader"> Property 1 </header>
+
+        <!--below code is for the gallery displayed-->
+        <div class="gallery cf">
+            <!--image URLs are provided to gallery is loaded-->
+            <div>
+                <img src="images/prop1pic1.jpg" />
+            </div>
+            <div>
+                <img src="images/prop1pic2.jpg" />
+            </div>
+            <div>
+                <img src="images/prop1pic3.jpg" />
+            </div>
+            <div>
+                <img src="images/prop1pic4.jpg" />
+            </div>
+            <div>
+                <img src="images/prop1pic5.jpg" />
+            </div>
+            <div>
+                <img src="images/prop1pic6.jpg" />
+            </div>
+        </div>
+
+        <!--this section provides all main details of property-->
+        <section id = "details">
+            <ul>
+                <li>Type: House</li>
+                <li>Bedrooms: 3</li>
+                <li>Price: 650000</li>
+                <li>Location: Petts Wood Road, Petts Wood, Orpington</li>
+                <li>Added: January 12 2016</li>
+        </section>
+
+        <!--includes the tab layout and contents below-->
+        <div id = "tabs">
+           <ul>
+               <li><a href = "#description">Description</a></li>
+               <li><a href = "#layout">Layout</a></li>
+               <li><a href = "#location">Location</a></li>
+           </ul>
+
+           <div id = "description">
+               <p>Attractive three bedroom semi-detached family home situated within 
+                0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of<br>
+                local shops, schools, bus routes and National Trust woodland.<br> 
+                The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. <br>
+                The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. <br>
+                Additional features include double glazing, gas central heating and a well presented interior...</p>
+           </div>
+
+           <div id = "layout">
+               <p><img src = "images/prop1Plan.jpg" id = "propLayout"></p>
+           </div>
+
+           <div id = "location">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39851.04535476322!2d0.061092123878848686!3d51.371989262265814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8ab091574bbd7%3A0x12eb74ad89922e5b!2sOrpington%2C+UK!5e0!3m2!1sen!2slk!4v1483965936472" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+        </div>
+
+        <!--a link to return to the main page is located in the footer-->
+        <footer>
+            <a href = "home.html">Back to Home</a>
+        </footer>
+
+    </body>
+</html>

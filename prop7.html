@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Property 7</title>
+
+        <script src="jquery-3.1.1.min.js"></script>
+        <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+        
+        <link rel = "stylesheet" href = "jquery-ui-1.10.0.custom.css">
+        <link rel = "stylesheet" href = "propPageStyles.css">
+        <link href="https://fonts.googleapis.com/css?family=Hind:400,700|Montserrat:400,700" rel="stylesheet">
+
+        <script src="propPageScripts.js"></script>
+    </head>
+
+    <body>
+        <header id = "propHeader"> Property 7 </header>
+
+        <!--below code is for the gallery displayed-->
+        <div class="gallery cf">
+            <!--image URLs are provided to gallery is loaded-->
+            <div>
+                <img src="images/prop7pic1.jpg" />
+            </div>
+            <div>
+                <img src="images/prop7pic2.jpg" />
+            </div>
+            <div>
+                <img src="images/prop7pic3.jpg" />
+            </div>
+            <div>
+                <img src="images/prop7pic4.jpg" />
+            </div>
+            <div>
+                <img src="images/prop7pic5.jpg" />
+            </div>
+            <div>
+                <img src="images/prop7pic6.jpg" />
+            </div>
+        </div>
+
+        <!--this section provides all main details of property-->
+        <section id = "details">
+            <ul>
+                <li>Type: House</li>
+                <li>Bedrooms: 5</li>
+                <li>Price: 750000</li>
+                <li>Location: Kehelwaththa, Anuradhapura.</li>
+                <li>Added: February 5 2016</li>
+        </section>
+
+        <!--includes the tab layout and contents below-->
+        <div id = "tabs">
+           <ul>
+               <li><a href = "#description">Description</a></li>
+               <li><a href = "#layout">Layout</a></li>
+               <li><a href = "#location">Location</a></li>
+           </ul>
+
+           <div id = "description">
+               <p>Stately, yet warm and welcoming, this beautiful home will be a family treasure for generations. Double doors open from the front porch to reveal a two-story foyer; columns on the right visually separate this area from the formal dining room.<br> Vaulted ceilings and fireplaces in the family room and keeping room add an elegant touch. The kitchen is equipped with a long work island<br> and a clever configuration that opens to the breakfast bay. The master suite is on the left, decked out with a bayed sitting area, immense walk-in closet,<br> and a posh spa-style bath. A nearby bedroom suite makes a perfect guest room.</p>
+           </div>
+
+           <div id = "layout">
+               <p><img src = "images/prop7Plan.GIF" id = "propLayout"></p>
+           </div>
+
+           <div id = "location">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126325.51579850804!2d80.33298549060947!3d8.335315563473266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcf4f99360e159%3A0xc111fe9ebc6dcf0e!2sAnuradhapura!5e0!3m2!1sen!2slk!4v1483969524220" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+
+        </div>
+
+         <!--a link to return to the main page is located in the footer-->
+        <footer>
+            <a href = "home.html">Back to Home</a>
+        </footer>
+    </body>
+</html>

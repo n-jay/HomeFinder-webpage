@@ -1,0 +1,107 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300');
+
+/*below code is for the gallery*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.gallery {
+  width: 640px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); 
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(2.5,2.5);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+/*styling for page header*/
+header {
+    background-color: blue;
+}
+
+#propHeader {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 80px;
+    color: white;
+    padding: 20px;
+}
+
+
+#details {
+    font-family: 'Hind', sans-serif;
+    margin-left: 50px;
+    font-size: 110%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+#description {
+    font-family: 'Hind', sans-serif;
+    color: gray;
+    font-size: 150%;
+}
+
+/*styling for the propery layout image*/
+#propLayout {
+    max-width: 40%;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+/*media query to change layout for a small screen device*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+  [id*="details"] {
+    text-align: center;
+  }
+  [id*="tabs"]{
+    text-align: center;
+  }
+  footer {
+     text-align: center;
+  }
+
+}

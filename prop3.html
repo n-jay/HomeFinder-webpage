@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Property 3</title>
+
+        <script src="jquery-3.1.1.min.js"></script>
+        <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+        
+        <link rel = "stylesheet" href = "jquery-ui-1.10.0.custom.css">
+        <link rel = "stylesheet" href = "propPageStyles.css">
+        <link href="https://fonts.googleapis.com/css?family=Hind:400,700|Montserrat:400,700" rel="stylesheet">
+
+        <script src="propPageScripts.js"></script>
+    </head>
+
+    <body>
+        <header id = "propHeader"> Property 3 </header>
+
+        <!--below code is for the gallery displayed-->
+        <div class="gallery cf">
+            <!--image URLs are provided to gallery is loaded-->
+            <div>
+                <img src="images/prop3pic1.jpg" />
+            </div>
+            <div>
+                <img src="images/prop3pic2.jpg" />
+            </div>
+            <div>
+                <img src="images/prop3pic3.jpg" />
+            </div>
+            <div>
+                <img src="images/prop3pic4.jpg" />
+            </div>
+            <div>
+                <img src="images/prop3pic5.jpg" />
+            </div>
+            <div>
+                <img src="images/prop3pic6.jpg" />
+            </div>
+        </div>
+
+        <!--this section provides all main details of property-->
+        <section id = "details">
+            <ul>
+                <li>Type: Condo</li>
+                <li>Bedrooms: 4</li>
+                <li>Price: 700000</li>
+                <li>Location: Uyana Road, Moratuwa</li>
+                <li>Added: October 23 2016</li>
+        </section>
+
+        <!--includes the tab layout and contents below-->
+        <div id = "tabs">
+           <ul>
+               <li><a href = "#description">Description</a></li>
+               <li><a href = "#layout">Layout</a></li>
+               <li><a href = "#location">Location</a></li>
+           </ul>
+
+           <div id = "description">
+               <p>With a wide-open layout that puts most of the living spaces easy to reach on the main floor,<br> this elegant Craftsman home delivers a contemporary floor plan and appealing rustic touches.<br>The master suite offers plenty of privacy on the left side of the home, including a private bath with a large shower and two sinks, plus sliding-door access to the backyard.<br> Two more bedrooms share a hall bath on the opposite side.</p>
+           </div>
+
+           <div id = "layout">
+               <p><img src = "images/prop3Plan.png" id = "propLayout"></p>
+           </div>
+
+           <div id = "location">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.267244646823!2d79.85080137568968!3d6.934318080338783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25918da0ed4fd%3A0xebc58aa0100363d1!2sPettah%2C+Colombo!5e0!3m2!1sen!2slk!4v1483968007743" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+
+        </div>
+        
+        <!--a link to return to the main page is located in the footer-->
+        <footer>
+            <a href = "home.html">Back to Home</a>
+        </footer>
+    </body>
+</html>

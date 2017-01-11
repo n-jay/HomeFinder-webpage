@@ -1,0 +1,115 @@
+{
+	"properties": [
+        {
+            "id":"prop1",
+			"type":"House",
+            "bedrooms":3,
+			"price":650000,
+			"tenure":"Freehold",
+			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland.<br> The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory...",
+			"location":"Petts Wood Road, Petts Wood, Orpington",
+			"picture":"images/prop1pic1small.jpg",
+			"url":"prop1.html",
+            "added": {
+                "month":"January",
+                "day":12,
+                "year":2016
+            }
+        },
+		{
+            "id":"prop2",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":299995,
+			"tenure":"Freehold",
+			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a...",
+			"location":"Crofton Road Orpington BR6",
+			"picture":"images/prop2pic1small.jpg",
+			"url":"prop2.html",
+            "added": {
+                "month":"September",
+                "day":14,
+                "year":2016
+            }
+        },
+        {
+           "id":"prop3",
+			"type":"Condo",
+            "bedrooms":4,
+			"price":700000,
+			"tenure":"Freehold",
+			"description":"With a wide-open layout that puts most of the living spaces easy to reach on the main floor, this elegant Craftsman home delivers a contemporary floor plan and appealing rustic touches...",
+			"location":"Uyana Road, Moratuwa",
+			"picture":"images/prop3pic1Small.jpg",
+			"url":"prop3.html",
+            "added": {
+                "month":"October",
+                "day":23,
+                "year":2016 
+            }
+        },
+        {
+           "id":"prop4",
+			"type":"House",
+            "bedrooms":4,
+			"price":364000,
+			"tenure":"Freehold",
+			"description":"Visitors or older children will love the secluded suite, loft, and balcony upstairs. Downstairs, the open layout brings everyone together in the spacious kitchen...",
+			"location":"Pettah road, Lunawa",
+			"picture":"images/prop4pic1Small.jpg",
+			"url":"prop4.html",
+            "added": {
+                "month":"September",
+                "day":24,
+                "year":2016 
+            } 
+        },
+        {
+           "id":"prop5",
+			"type":"Condo",
+            "bedrooms":4,
+			"price":255000,
+			"tenure":"Freehold",
+			"description":"The eccentric pivot front door invites you into this clean and warm contemporary style home. With wide overhangs and well shaded bands of glass it combines the openness of an island getaway with a “C – shaped” floor plan....",
+			"location":"Westworth lane, Mount Lavinia",
+			"picture":"images/prop5pic1Small.jpg",
+			"url":"prop5.html",
+            "added": {
+                "month":"May",
+                "day":17,
+                "year":2016 
+            } 
+        },
+        {
+           "id":"prop6",
+			"type":"Bungalow",
+            "bedrooms":4,
+			"price":255000,
+			"tenure":"Freehold",
+			"description":"A trim-looking European-style home with lots of room for an active family to stretch out is captured with this plan.Covered porches front and back create a relaxed environment...",
+			"location":"Havelock road, Colombo 7",
+			"picture":"images/prop6pic1Small.jpg",
+			"url":"prop6.html",
+            "added": {
+                "month":"July",
+                "day":4,
+                "year":2016 
+            } 
+        },
+        {
+           "id":"prop7",
+			"type":"House",
+            "bedrooms":5,
+			"price":750000,
+			"tenure":"Freehold",
+			"description":"Stately, yet warm and welcoming, this beautiful home will be a family treasure for generations. Double doors open from the front porch to reveal a two-story foyer; columns on the right visually separate this area from the formal dining room. Vaulted ceilings and fireplaces in the family room and keeping room add an elegant touch...",
+			"location":"Kehelwaththa, Anuradhapura.",
+			"picture":"images/prop7pic1Small.jpg",
+			"url":"prop7.html",
+            "added": {
+                "month":"February",
+                "day":5,
+                "year":2016 
+            } 
+        }    
+]}
